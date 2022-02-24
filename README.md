@@ -1,5 +1,5 @@
 # ArealRobotics_AutonomousDrone
-This Repository contains multiple applications (such as controlling the drone using python, face tracking using tello, object tracking using tello, Controlling Drone with Body Postures, Controlling Drone with Hand Gestures, YELLO (YOLO + TELLO), Collision Avoidance Drone) on TELLO EDU drone using python
+This Repository contains multiple applications (such as controlling the drone using python, face tracking using tello, object tracking using tello, Controlling Drone with Body Postures, Controlling Drone with Hand Gestures, YELLO (YOLO + TELLO), Collision Avoidance Drone) on TELLO EDU drone using python built-in libraries.
 
 
 Firstly, let’s understand the physics behind the motion of a quadcopter. The quadcopter's rotors behave as wings. They generate lift by spinning quickly, pulling the air downward, and propelling the quadcopter into the air. If the lift cancels out against gravity's acting force, then the net force is zero, and the quad hovers in mid-air. The quadcopter is propelled in a certain direction using a directional force. The Drone's height is reduced as the lift decreases. 
