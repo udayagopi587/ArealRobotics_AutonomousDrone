@@ -18,8 +18,7 @@ Here, for identifying the hand guesture I've used MediaPipe 21 3D landmarks.
 4) Now we are ready with our dataset, we now build a KNN classifier to recognize our gestures. 
     Train_X  =  N * [(x0,y0), (x1,y1) …… (x20,y20)]
     Train_Y = N*label for each hand gesture
-    You can refer to knncvs.py to train the KNN classifier and save model as pickle file.
 
-5) Let's test the classifier on real time. You can refer PoseModule.py to test our classifier out.
+5) Let's test the classifier on real time. You can refer tello_gesture_controller.py to test our classifier out.
 
-6) Now all is left to implement drone control using our gestures. You can refer to drone_pose_control.py
+6) Now all is left to implement drone control using our gestures. You can refer to gesture_test_drone.py
